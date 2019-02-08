@@ -8,13 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		8A2C13B7220D6AE100359D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13B6220D6AE100359D48 /* AppDelegate.swift */; };
-		8A2C13B9220D6AE100359D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13B8220D6AE100359D48 /* ViewController.swift */; };
 		8A2C13BC220D6AE100359D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C13BA220D6AE100359D48 /* Main.storyboard */; };
 		8A2C13BF220D6AE100359D48 /* CreativeWorkshop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13BD220D6AE100359D48 /* CreativeWorkshop.xcdatamodeld */; };
 		8A2C13C1220D6AE300359D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C13C0220D6AE300359D48 /* Assets.xcassets */; };
 		8A2C13C4220D6AE300359D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C13C2220D6AE300359D48 /* LaunchScreen.storyboard */; };
 		8A2C13CF220D6AE300359D48 /* CreativeWorkshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13CE220D6AE300359D48 /* CreativeWorkshopTests.swift */; };
 		8A2C13DA220D6AE300359D48 /* CreativeWorkshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13D9220D6AE300359D48 /* CreativeWorkshopUITests.swift */; };
+		8A2C13F0220D6CE500359D48 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13E9220D6CE500359D48 /* SignInPresenter.swift */; };
+		8A2C13F1220D6CE500359D48 /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13EA220D6CE500359D48 /* SignInRouter.swift */; };
+		8A2C13F2220D6CE500359D48 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13EB220D6CE500359D48 /* SignInViewController.swift */; };
+		8A2C13F3220D6CE500359D48 /* SignInProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13EC220D6CE500359D48 /* SignInProtocols.swift */; };
+		8A2C13F4220D6CE500359D48 /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13ED220D6CE500359D48 /* SignInInteractor.swift */; };
+		8A2C13F5220D6CE500359D48 /* SignInConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13EE220D6CE500359D48 /* SignInConfigurator.swift */; };
+		8A2C13F6220D6CE500359D48 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C13EF220D6CE500359D48 /* SignInViewController.xib */; };
+		8A2C13FF220D709700359D48 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13F8220D709700359D48 /* SignUpPresenter.swift */; };
+		8A2C1400220D709700359D48 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13F9220D709700359D48 /* SignUpRouter.swift */; };
+		8A2C1401220D709700359D48 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13FA220D709700359D48 /* SignUpViewController.swift */; };
+		8A2C1402220D709700359D48 /* SignUpProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13FB220D709700359D48 /* SignUpProtocols.swift */; };
+		8A2C1403220D709700359D48 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13FC220D709700359D48 /* SignUpInteractor.swift */; };
+		8A2C1404220D709700359D48 /* SignUpConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C13FD220D709700359D48 /* SignUpConfigurator.swift */; };
+		8A2C1405220D709700359D48 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C13FE220D709700359D48 /* SignUpViewController.xib */; };
+		8A2C140E220D9A6500359D48 /* CategoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C1407220D9A6400359D48 /* CategoriesPresenter.swift */; };
+		8A2C140F220D9A6500359D48 /* CategoriesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C1408220D9A6500359D48 /* CategoriesRouter.swift */; };
+		8A2C1410220D9A6500359D48 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C1409220D9A6500359D48 /* CategoriesViewController.swift */; };
+		8A2C1411220D9A6500359D48 /* CategoriesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C140A220D9A6500359D48 /* CategoriesProtocols.swift */; };
+		8A2C1412220D9A6500359D48 /* CategoriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C140B220D9A6500359D48 /* CategoriesInteractor.swift */; };
+		8A2C1413220D9A6500359D48 /* CategoriesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C140C220D9A6500359D48 /* CategoriesConfigurator.swift */; };
+		8A2C1414220D9A6500359D48 /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C140D220D9A6500359D48 /* CategoriesViewController.xib */; };
+		8A2C141D220DA60C00359D48 /* CategoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C1416220DA60C00359D48 /* CategoryPresenter.swift */; };
+		8A2C141E220DA60C00359D48 /* CategoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C1417220DA60C00359D48 /* CategoryRouter.swift */; };
+		8A2C141F220DA60C00359D48 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C1418220DA60C00359D48 /* CategoryViewController.swift */; };
+		8A2C1420220DA60C00359D48 /* CategoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C1419220DA60C00359D48 /* CategoryProtocols.swift */; };
+		8A2C1421220DA60C00359D48 /* CategoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C141A220DA60C00359D48 /* CategoryInteractor.swift */; };
+		8A2C1422220DA60C00359D48 /* CategoryConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C141B220DA60C00359D48 /* CategoryConfigurator.swift */; };
+		8A2C1423220DA60C00359D48 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C141C220DA60C00359D48 /* CategoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +64,6 @@
 /* Begin PBXFileReference section */
 		8A2C13B3220D6AE100359D48 /* CreativeWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativeWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2C13B6220D6AE100359D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A2C13B8220D6AE100359D48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A2C13BB220D6AE100359D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A2C13BE220D6AE100359D48 /* CreativeWorkshop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreativeWorkshop.xcdatamodel; sourceTree = "<group>"; };
 		8A2C13C0220D6AE300359D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +75,34 @@
 		8A2C13D5220D6AE300359D48 /* CreativeWorkshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreativeWorkshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2C13D9220D6AE300359D48 /* CreativeWorkshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeWorkshopUITests.swift; sourceTree = "<group>"; };
 		8A2C13DB220D6AE300359D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2C13E9220D6CE500359D48 /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		8A2C13EA220D6CE500359D48 /* SignInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
+		8A2C13EB220D6CE500359D48 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8A2C13EC220D6CE500359D48 /* SignInProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInProtocols.swift; sourceTree = "<group>"; };
+		8A2C13ED220D6CE500359D48 /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		8A2C13EE220D6CE500359D48 /* SignInConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInConfigurator.swift; sourceTree = "<group>"; };
+		8A2C13EF220D6CE500359D48 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		8A2C13F8220D709700359D48 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		8A2C13F9220D709700359D48 /* SignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
+		8A2C13FA220D709700359D48 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8A2C13FB220D709700359D48 /* SignUpProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpProtocols.swift; sourceTree = "<group>"; };
+		8A2C13FC220D709700359D48 /* SignUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
+		8A2C13FD220D709700359D48 /* SignUpConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpConfigurator.swift; sourceTree = "<group>"; };
+		8A2C13FE220D709700359D48 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		8A2C1407220D9A6400359D48 /* CategoriesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesPresenter.swift; sourceTree = "<group>"; };
+		8A2C1408220D9A6500359D48 /* CategoriesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRouter.swift; sourceTree = "<group>"; };
+		8A2C1409220D9A6500359D48 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		8A2C140A220D9A6500359D48 /* CategoriesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesProtocols.swift; sourceTree = "<group>"; };
+		8A2C140B220D9A6500359D48 /* CategoriesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesInteractor.swift; sourceTree = "<group>"; };
+		8A2C140C220D9A6500359D48 /* CategoriesConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesConfigurator.swift; sourceTree = "<group>"; };
+		8A2C140D220D9A6500359D48 /* CategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesViewController.xib; sourceTree = "<group>"; };
+		8A2C1416220DA60C00359D48 /* CategoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPresenter.swift; sourceTree = "<group>"; };
+		8A2C1417220DA60C00359D48 /* CategoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRouter.swift; sourceTree = "<group>"; };
+		8A2C1418220DA60C00359D48 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		8A2C1419220DA60C00359D48 /* CategoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProtocols.swift; sourceTree = "<group>"; };
+		8A2C141A220DA60C00359D48 /* CategoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryInteractor.swift; sourceTree = "<group>"; };
+		8A2C141B220DA60C00359D48 /* CategoryConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryConfigurator.swift; sourceTree = "<group>"; };
+		8A2C141C220DA60C00359D48 /* CategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +153,8 @@
 		8A2C13B5220D6AE100359D48 /* CreativeWorkshop */ = {
 			isa = PBXGroup;
 			children = (
+				8A2C13E7220D6CBD00359D48 /* modules */,
 				8A2C13B6220D6AE100359D48 /* AppDelegate.swift */,
-				8A2C13B8220D6AE100359D48 /* ViewController.swift */,
 				8A2C13BA220D6AE100359D48 /* Main.storyboard */,
 				8A2C13C0220D6AE300359D48 /* Assets.xcassets */,
 				8A2C13C2220D6AE300359D48 /* LaunchScreen.storyboard */,
@@ -126,6 +180,73 @@
 				8A2C13DB220D6AE300359D48 /* Info.plist */,
 			);
 			path = CreativeWorkshopUITests;
+			sourceTree = "<group>";
+		};
+		8A2C13E7220D6CBD00359D48 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C1415220DA5F700359D48 /* Category */,
+				8A2C1406220D991500359D48 /* Categories */,
+				8A2C13F7220D6FBF00359D48 /* SignUp */,
+				8A2C13E8220D6CCB00359D48 /* SignIn */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		8A2C13E8220D6CCB00359D48 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C13EB220D6CE500359D48 /* SignInViewController.swift */,
+				8A2C13E9220D6CE500359D48 /* SignInPresenter.swift */,
+				8A2C13EA220D6CE500359D48 /* SignInRouter.swift */,
+				8A2C13EC220D6CE500359D48 /* SignInProtocols.swift */,
+				8A2C13ED220D6CE500359D48 /* SignInInteractor.swift */,
+				8A2C13EE220D6CE500359D48 /* SignInConfigurator.swift */,
+				8A2C13EF220D6CE500359D48 /* SignInViewController.xib */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		8A2C13F7220D6FBF00359D48 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C13FA220D709700359D48 /* SignUpViewController.swift */,
+				8A2C13F8220D709700359D48 /* SignUpPresenter.swift */,
+				8A2C13F9220D709700359D48 /* SignUpRouter.swift */,
+				8A2C13FB220D709700359D48 /* SignUpProtocols.swift */,
+				8A2C13FC220D709700359D48 /* SignUpInteractor.swift */,
+				8A2C13FD220D709700359D48 /* SignUpConfigurator.swift */,
+				8A2C13FE220D709700359D48 /* SignUpViewController.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		8A2C1406220D991500359D48 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C1409220D9A6500359D48 /* CategoriesViewController.swift */,
+				8A2C1407220D9A6400359D48 /* CategoriesPresenter.swift */,
+				8A2C1408220D9A6500359D48 /* CategoriesRouter.swift */,
+				8A2C140A220D9A6500359D48 /* CategoriesProtocols.swift */,
+				8A2C140B220D9A6500359D48 /* CategoriesInteractor.swift */,
+				8A2C140C220D9A6500359D48 /* CategoriesConfigurator.swift */,
+				8A2C140D220D9A6500359D48 /* CategoriesViewController.xib */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8A2C1415220DA5F700359D48 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C1418220DA60C00359D48 /* CategoryViewController.swift */,
+				8A2C1416220DA60C00359D48 /* CategoryPresenter.swift */,
+				8A2C1417220DA60C00359D48 /* CategoryRouter.swift */,
+				8A2C1419220DA60C00359D48 /* CategoryProtocols.swift */,
+				8A2C141A220DA60C00359D48 /* CategoryInteractor.swift */,
+				8A2C141B220DA60C00359D48 /* CategoryConfigurator.swift */,
+				8A2C141C220DA60C00359D48 /* CategoryViewController.xib */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +353,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2C1423220DA60C00359D48 /* CategoryViewController.xib in Resources */,
+				8A2C1405220D709700359D48 /* SignUpViewController.xib in Resources */,
+				8A2C13F6220D6CE500359D48 /* SignInViewController.xib in Resources */,
+				8A2C1414220D9A6500359D48 /* CategoriesViewController.xib in Resources */,
 				8A2C13C4220D6AE300359D48 /* LaunchScreen.storyboard in Resources */,
 				8A2C13C1220D6AE300359D48 /* Assets.xcassets in Resources */,
 				8A2C13BC220D6AE100359D48 /* Main.storyboard in Resources */,
@@ -259,8 +384,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2C1403220D709700359D48 /* SignUpInteractor.swift in Sources */,
+				8A2C1401220D709700359D48 /* SignUpViewController.swift in Sources */,
+				8A2C1400220D709700359D48 /* SignUpRouter.swift in Sources */,
+				8A2C1411220D9A6500359D48 /* CategoriesProtocols.swift in Sources */,
+				8A2C13FF220D709700359D48 /* SignUpPresenter.swift in Sources */,
+				8A2C1404220D709700359D48 /* SignUpConfigurator.swift in Sources */,
+				8A2C1410220D9A6500359D48 /* CategoriesViewController.swift in Sources */,
+				8A2C1421220DA60C00359D48 /* CategoryInteractor.swift in Sources */,
+				8A2C141D220DA60C00359D48 /* CategoryPresenter.swift in Sources */,
+				8A2C141F220DA60C00359D48 /* CategoryViewController.swift in Sources */,
+				8A2C1422220DA60C00359D48 /* CategoryConfigurator.swift in Sources */,
+				8A2C13F0220D6CE500359D48 /* SignInPresenter.swift in Sources */,
+				8A2C13F1220D6CE500359D48 /* SignInRouter.swift in Sources */,
+				8A2C13F5220D6CE500359D48 /* SignInConfigurator.swift in Sources */,
+				8A2C140F220D9A6500359D48 /* CategoriesRouter.swift in Sources */,
+				8A2C13F3220D6CE500359D48 /* SignInProtocols.swift in Sources */,
+				8A2C1413220D9A6500359D48 /* CategoriesConfigurator.swift in Sources */,
+				8A2C141E220DA60C00359D48 /* CategoryRouter.swift in Sources */,
+				8A2C140E220D9A6500359D48 /* CategoriesPresenter.swift in Sources */,
+				8A2C1402220D709700359D48 /* SignUpProtocols.swift in Sources */,
+				8A2C13F2220D6CE500359D48 /* SignInViewController.swift in Sources */,
+				8A2C1412220D9A6500359D48 /* CategoriesInteractor.swift in Sources */,
+				8A2C13F4220D6CE500359D48 /* SignInInteractor.swift in Sources */,
+				8A2C1420220DA60C00359D48 /* CategoryProtocols.swift in Sources */,
 				8A2C13BF220D6AE100359D48 /* CreativeWorkshop.xcdatamodeld in Sources */,
-				8A2C13B9220D6AE100359D48 /* ViewController.swift in Sources */,
 				8A2C13B7220D6AE100359D48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F3CLJ592;
 				INFOPLIST_FILE = CreativeWorkshop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +603,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F3CLJ592;
 				INFOPLIST_FILE = CreativeWorkshop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

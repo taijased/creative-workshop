@@ -42,6 +42,13 @@
 		8A2C1421220DA60C00359D48 /* CategoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C141A220DA60C00359D48 /* CategoryInteractor.swift */; };
 		8A2C1422220DA60C00359D48 /* CategoryConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C141B220DA60C00359D48 /* CategoryConfigurator.swift */; };
 		8A2C1423220DA60C00359D48 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C141C220DA60C00359D48 /* CategoryViewController.xib */; };
+		8AC49725221AB595008A7B07 /* CardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4971E221AB595008A7B07 /* CardPresenter.swift */; };
+		8AC49726221AB595008A7B07 /* CardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4971F221AB595008A7B07 /* CardRouter.swift */; };
+		8AC49727221AB595008A7B07 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC49720221AB595008A7B07 /* CardViewController.swift */; };
+		8AC49728221AB595008A7B07 /* CardProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC49721221AB595008A7B07 /* CardProtocols.swift */; };
+		8AC49729221AB595008A7B07 /* CardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC49722221AB595008A7B07 /* CardInteractor.swift */; };
+		8AC4972A221AB595008A7B07 /* CardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC49723221AB595008A7B07 /* CardConfigurator.swift */; };
+		8AC4972B221AB595008A7B07 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC49724221AB595008A7B07 /* CardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +110,13 @@
 		8A2C141A220DA60C00359D48 /* CategoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryInteractor.swift; sourceTree = "<group>"; };
 		8A2C141B220DA60C00359D48 /* CategoryConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryConfigurator.swift; sourceTree = "<group>"; };
 		8A2C141C220DA60C00359D48 /* CategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+		8AC4971E221AB595008A7B07 /* CardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPresenter.swift; sourceTree = "<group>"; };
+		8AC4971F221AB595008A7B07 /* CardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRouter.swift; sourceTree = "<group>"; };
+		8AC49720221AB595008A7B07 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		8AC49721221AB595008A7B07 /* CardProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProtocols.swift; sourceTree = "<group>"; };
+		8AC49722221AB595008A7B07 /* CardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInteractor.swift; sourceTree = "<group>"; };
+		8AC49723221AB595008A7B07 /* CardConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardConfigurator.swift; sourceTree = "<group>"; };
+		8AC49724221AB595008A7B07 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +199,7 @@
 		8A2C13E7220D6CBD00359D48 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				8AC4971D221AB571008A7B07 /* Card */,
 				8A2C1415220DA5F700359D48 /* Category */,
 				8A2C1406220D991500359D48 /* Categories */,
 				8A2C13F7220D6FBF00359D48 /* SignUp */,
@@ -247,6 +262,20 @@
 				8A2C141C220DA60C00359D48 /* CategoryViewController.xib */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		8AC4971D221AB571008A7B07 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				8AC49720221AB595008A7B07 /* CardViewController.swift */,
+				8AC4971E221AB595008A7B07 /* CardPresenter.swift */,
+				8AC4971F221AB595008A7B07 /* CardRouter.swift */,
+				8AC49721221AB595008A7B07 /* CardProtocols.swift */,
+				8AC49722221AB595008A7B07 /* CardInteractor.swift */,
+				8AC49723221AB595008A7B07 /* CardConfigurator.swift */,
+				8AC49724221AB595008A7B07 /* CardViewController.xib */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +382,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC4972B221AB595008A7B07 /* CardViewController.xib in Resources */,
 				8A2C1423220DA60C00359D48 /* CategoryViewController.xib in Resources */,
 				8A2C1405220D709700359D48 /* SignUpViewController.xib in Resources */,
 				8A2C13F6220D6CE500359D48 /* SignInViewController.xib in Resources */,
@@ -397,18 +427,24 @@
 				8A2C1422220DA60C00359D48 /* CategoryConfigurator.swift in Sources */,
 				8A2C13F0220D6CE500359D48 /* SignInPresenter.swift in Sources */,
 				8A2C13F1220D6CE500359D48 /* SignInRouter.swift in Sources */,
+				8AC49727221AB595008A7B07 /* CardViewController.swift in Sources */,
 				8A2C13F5220D6CE500359D48 /* SignInConfigurator.swift in Sources */,
 				8A2C140F220D9A6500359D48 /* CategoriesRouter.swift in Sources */,
 				8A2C13F3220D6CE500359D48 /* SignInProtocols.swift in Sources */,
+				8AC49728221AB595008A7B07 /* CardProtocols.swift in Sources */,
 				8A2C1413220D9A6500359D48 /* CategoriesConfigurator.swift in Sources */,
 				8A2C141E220DA60C00359D48 /* CategoryRouter.swift in Sources */,
 				8A2C140E220D9A6500359D48 /* CategoriesPresenter.swift in Sources */,
+				8AC49729221AB595008A7B07 /* CardInteractor.swift in Sources */,
 				8A2C1402220D709700359D48 /* SignUpProtocols.swift in Sources */,
 				8A2C13F2220D6CE500359D48 /* SignInViewController.swift in Sources */,
 				8A2C1412220D9A6500359D48 /* CategoriesInteractor.swift in Sources */,
+				8AC49726221AB595008A7B07 /* CardRouter.swift in Sources */,
+				8AC49725221AB595008A7B07 /* CardPresenter.swift in Sources */,
 				8A2C13F4220D6CE500359D48 /* SignInInteractor.swift in Sources */,
 				8A2C1420220DA60C00359D48 /* CategoryProtocols.swift in Sources */,
 				8A2C13BF220D6AE100359D48 /* CreativeWorkshop.xcdatamodeld in Sources */,
+				8AC4972A221AB595008A7B07 /* CardConfigurator.swift in Sources */,
 				8A2C13B7220D6AE100359D48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
